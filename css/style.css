@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+
+
+/* <!------------------- HEADER -----------------> */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    
+}
+
+.logo img {
+    width: 100px;
+    height: 28px;
+}
+.login {
+    color: #2A7AE4;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    width: 133px;
+    height: 40px;   
+    border: 1px solid #2A7AE4;
+    transition: all 0.4s;
+}
+
+
+.login:hover {
+    color: white;
+    background-color: #2A7AE4;
+    transition: all 0.4s;
+}
+
+.lupita img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/* <!------------------- BANNER -----------------> */
+.banner {
+    height: 192px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../img/banner-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    color: white;
+    
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.banner p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.btn {
+      background: #2A7AE4;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+}
+.banner button {
+    width: 118px;
+    height: 40px;
+  
+}
+
+.text-banner {
+    padding-top: 75px;
+    padding-left: 20px;
+}
+
+.text-banner p {
+    padding: 8px 0;
+}
+
+
+
+
+/* <!------------------- SECTION CATEGORIAS -----------------> */
+
+
+.categoria h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+
+.categoria a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A7AE4;
+}
+
+.text-productos {
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productos {
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 0% 5%;
+
+    
+}
+
+.productos h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+
+.productos p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.productos a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A7AE4;
+
+}
+
+.productos h2, p, a {
+    padding: 3px 0px;
+}
+
+.prod {
+    margin-bottom: 30px;
+}
+
+/* <!------------------- FOOTER -----------------> */
+footer {
+    
+    background: #EAF2FD;
+
+}
+
+footer  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.links a {
+    color: #464646;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+footer li {
+    padding: 8px 0;
+}
+
+footer .contacto {
+    padding: 20px;
+}
+footer .contacto h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+footer .logo img {
+    width: 176px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto button {
+    width: 133px;
+    height: 40px;
+  
+}
+.contacto input {
+    width: 328px;
+    height: 37px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+footer label {
+    background-color: white;
+    font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #A2A2A2;
+padding-left: 5px;
+margin-top: 10px;
+}
+.contacto textarea {
+    width: 328px;
+    height: 82px;
+    border-radius: 4px;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #A2A2A2;
+font-family: 'Raleway';
+padding: 10px;
+}
+.dev {
+    text-align: center;
+    margin: 20px;
+    color: #464646;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.dev a {
+  
+    color: #2A7AE4;
+}
